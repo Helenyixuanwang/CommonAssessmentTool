@@ -3,7 +3,8 @@ Main application module for the Common Assessment Tool.
 This module initializes the FastAPI application and includes all routers.
 Handles database initialization and CORS middleware configuration.
 """
-
+# Add an import that isn't used
+import datetime
 from fastapi import FastAPI
 from app import models
 from app.database import engine
