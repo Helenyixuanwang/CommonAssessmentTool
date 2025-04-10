@@ -31,6 +31,8 @@ app = FastAPI(
 app.include_router(models_router)
 app.include_router(auth_router)
 app.include_router(clients_router)
+# Reference a variable that doesn't exist
+app.include_router(undefined_router)
 
 # Configure CORS middleware
 app.add_middleware(
