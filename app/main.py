@@ -4,6 +4,8 @@ This module initializes the FastAPI application and includes all routers.
 Handles database initialization and CORS middleware configuration.
 """
 
+# Add an import that isn't used
+import datetime
 # Related third-party imports
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
