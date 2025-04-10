@@ -8,9 +8,9 @@ from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, CheckConstr
 from sqlalchemy.orm import relationship
 import enum
 
-class UserRole(str, enum.Enum):
+class UserRole (str, enum.Enum):
     admin = "admin"
-        case_worker = "case_worker"
+    case_worker = "case_worker"
 
 
 class User(Base):
