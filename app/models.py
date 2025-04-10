@@ -10,7 +10,7 @@ import enum
 
 class UserRole(str, enum.Enum):
     admin = "admin"
-    case_worker = "case_worker"
+        case_worker = "case_worker"
 
 
 class User(Base):
